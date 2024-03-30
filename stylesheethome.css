@@ -1,0 +1,263 @@
+header{
+    background-color: #6d8563;
+}
+body{
+    background-color: #6d8563;
+}
+.horiz {
+    position: absolute;
+    top: 10%; 
+    left: 0;
+    width: 100%;
+    border: none;
+    height: 1px; 
+    background-color: #000; 
+    }    
+.spotify-title{
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 150px;
+    font-weight: 501;
+    position: absolute;
+    top: 12%;
+    left:11%;
+}
+.wrapped-title{
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 150px;
+    font-weight: 501;
+    position: absolute;
+    top: 28%;
+    left:35%;
+}
+.names-text{
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 28%;
+    left:13%;
+}
+.about-text {
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 52%;
+    left:36%;
+    font-weight:bold;
+}
+.container-1{
+    width: 74%; 
+    height: 300px; 
+    background-color: #3b4836; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 58%;
+    left:12%;
+    border-radius:25px;
+
+}
+.static-button{
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right:5%;
+    top:5%;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    box-shadow: 0px 0px 0px 1px #fff; /* Add box shadow */
+}
+.static-button:hover {
+    background-color: #3b4836;
+}
+.interactive-button{
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right:12%;
+    top:5%;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    box-shadow: 0px 0px 0px 1px #fff; 
+}
+.interactive-button:hover {
+    background-color: #3b4836; 
+}
+.home-button{
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right:23%;
+    top:5%;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    box-shadow: 0px 0px 0px 1px #fff; 
+}
+.home-button:hover {
+    background-color: #3b4836; 
+}
+
+.static-title{
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 501;
+    position: absolute;
+    top: 12%;
+    left:11%;
+}
+.static-container-1{
+    width: 33%; 
+    height: 400px; 
+    background-color: #fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 39%;
+    left:12%;
+    border-radius:25px;
+
+}
+.static-container-2{
+    width: 33%; 
+    height: 400px; 
+    background-color: #fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 39%;
+    right:12%;
+    border-radius:25px;
+
+}
+.static-container-3{
+    width: 33%; 
+    height: 400px; 
+    background-color: #fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 150%;
+    right:35%;
+    border-radius:25px;
+
+}
+.static-text-1{
+    width: 33%; 
+    height: 500px; 
+    color:#fff;
+    background-color: #3b4836; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 90%;
+    left:12%;
+    border-radius:25px;
+
+}
+.static-text-2{
+    width: 33%; 
+    height: 500px; 
+    background-color: #3b4836;
+    color:#fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 90%;
+    right:12%;
+    border-radius:25px;
+
+}
+.static-text-3{
+    width: 33%; 
+    height: 500px; 
+    background-color: #3b4836; 
+    color:#fff;
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 200%;
+    right:35%;
+    border-radius:25px;
+
+}
+.interactive-title{
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 501;
+    position: absolute;
+    top: 12%;
+    left:11%;
+}
+.interactive-container-1{
+    width: 33%; 
+    height: 400px; 
+    background-color: #fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 39%;
+    left:12%;
+    border-radius:25px;
+
+}
+.interactive-container-2{
+    width: 33%; 
+    height: 400px; 
+    background-color: #fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 39%;
+    right:12%;
+    border-radius:25px;
+
+}
+.interactive-text-1{
+    width: 33%; 
+    height: 500px; 
+    background-color: #3b4836; 
+    color:#fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 90%;
+    left:12%;
+    border-radius:25px;
+
+}
+.interactive-text-2{
+    width: 33%; 
+    height: 500px; 
+    background-color: #3b4836; 
+    color:#fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 90%;
+    right:12%;
+    border-radius:25px;
+
+}
