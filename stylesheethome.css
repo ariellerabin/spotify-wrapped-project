@@ -158,77 +158,77 @@ body{
     left:11%;
 }
 .static-container-1{
-    width: 33%; 
+    width: 24%; 
     height: 400px; 
     background-color: #fff; 
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
     top: 39%;
-    left:12%;
+    left:4%;
     border-radius:25px;
 
 }
 .static-container-2{
-    width: 33%; 
+    width: 24%; 
     height: 400px; 
     background-color: #fff; 
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
     top: 39%;
-    right:12%;
+    left:38%;
     border-radius:25px;
 
 }
 .static-container-3{
-    width: 33%; 
+    width: 24%; 
     height: 400px; 
     background-color: #fff; 
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
-    top: 150%;
-    right:35%;
+    top: 39%;
+    right:4%;
     border-radius:25px;
 
 }
 .static-text-1{
-    width: 33%; 
-    height: 500px; 
+    width: 80%; 
+    height: 200px; 
     color:#fff;
     background-color: #3b4836; 
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
     top: 90%;
-    left:12%;
+    left:10%;
     border-radius:25px;
 
 }
 .static-text-2{
-    width: 33%; 
+    width: 24%; 
     height: 500px; 
     background-color: #3b4836;
     color:#fff; 
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
-    top: 90%;
-    right:12%;
+    top: 150%;
+    left: 38%;
     border-radius:25px;
 
 }
 .static-text-3{
-    width: 33%; 
+    width: 24%; 
     height: 500px; 
     background-color: #3b4836; 
     color:#fff;
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
-    top: 200%;
-    right:35%;
+    top: 150%;
+    right:4%;
     border-radius:25px;
 
 }
@@ -242,31 +242,31 @@ body{
     left:11%;
 }
 .interactive-container-1{
-    width: 33%; 
+    width: 40%; 
     height: 400px; 
     background-color: #fff; 
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
     top: 39%;
-    left:12%;
+    left:9%;
     border-radius:25px;
 
 }
 .interactive-container-2{
-    width: 33%; 
-    height: 400px; 
+    width: 38%; 
+    height: 600px; 
     background-color: #fff; 
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
     top: 39%;
-    right:12%;
+    right:6%;
     border-radius:25px;
 
 }
 .interactive-text-1{
-    width: 33%; 
+    width: 40%; 
     height: 500px; 
     background-color: #3b4836; 
     color:#fff; 
@@ -274,20 +274,20 @@ body{
     position: absolute;
     padding: 20px; 
     top: 90%;
-    left:12%;
+    left:9%;
     border-radius:25px;
 
 }
 .interactive-text-2{
-    width: 33%; 
+    width: 38%; 
     height: 500px; 
     background-color: #3b4836; 
     color:#fff; 
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
-    top: 90%;
-    right:12%;
+    top: 110%;
+    right:6%;
     border-radius:25px;
 
 }
