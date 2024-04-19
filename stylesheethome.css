@@ -75,6 +75,7 @@ body{
 .static-button{
     font-family: Helvetica;
     color: #fff;
+    background-color: #6d8563;
     font-size: 20px;
     position: absolute;
     right:16%;
@@ -93,6 +94,7 @@ body{
 }
 .interactive-button{
     font-family: Helvetica;
+    background-color: #6d8563;
     color: #fff;
     font-size: 20px;
     position: absolute;
@@ -112,6 +114,7 @@ body{
 }
 .home-button{
     font-family: Helvetica;
+    background-color: #6d8563;
     color: #fff;
     font-size: 20px;
     position: absolute;
@@ -131,6 +134,7 @@ body{
 }
 .con-button{
     font-family: Helvetica;
+    background-color: #6d8563;
     color: #fff;
     font-size: 20px;
     position: absolute;
