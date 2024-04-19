@@ -52,7 +52,7 @@ body{
     width: 30%;
     position: absolute;
     top: 58%;
-    left: 9%;
+    left: 7%;
 }
 
 .container-1 {
@@ -63,8 +63,8 @@ body{
     margin: 0 auto;
     position: absolute;
     padding: 20px;
-    top: 58%;
-    left: 45%;
+    top: 59%;
+    left: 50%;
     border-radius: 25px;
 }
 .overall-container {
@@ -207,6 +207,36 @@ body{
     border-radius:25px;
 
 }
+.static-container-4{
+    width: 30%; 
+    height: 400px; 
+    background-color: #fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 120%;
+    left:20%;
+    border-radius:25px;
+
+}
+.static-container-5{
+    width: 45%; 
+    height: 400px; 
+    background-color: #fff; 
+    margin: 0 auto; 
+    position: absolute;
+    padding: 20px; 
+    top: 180%;
+    left:5%;
+    border-radius:25px;
+
+}
+.container-static-1{
+    display: flex;
+}
+.container-static-2{
+    display: flex;
+}
 .static-text-1{
     width: 80%; 
     height: 200px; 
@@ -221,28 +251,28 @@ body{
 
 }
 .static-text-2{
-    width: 24%; 
-    height: 500px; 
+    width: 30%; 
+    height: 400px; 
     background-color: #3b4836;
     color:#fff; 
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
-    top: 150%;
-    left: 38%;
+    top: 120%;
+    right: 13%;
     border-radius:25px;
 
 }
 .static-text-3{
-    width: 24%; 
-    height: 500px; 
+    width: 30%; 
+    height: 370px; 
     background-color: #3b4836; 
     color:#fff;
     margin: 0 auto; 
     position: absolute;
     padding: 20px; 
-    top: 150%;
-    right:4%;
+    top: 180%;
+    right: 13%;
     border-radius:25px;
 
 }

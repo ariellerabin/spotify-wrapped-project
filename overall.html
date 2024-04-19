@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-0a701ac44d5fb8dcb0fd76b516b081d2"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "user", "type": "nominal"}, "x": {"field": "user", "type": "nominal"}, "y": {"field": "average_level", "type": "quantitative"}}, "height": 600, "params": [{"name": "Category", "select": {"type": "point", "fields": ["category"]}, "bind": {"input": "select", "options": ["danceability", "energy", "loudness", "speechiness", "acousticness", "instrumentalness", "liveness", "valence", "tempo"]}}], "title": "Average Levels of Selected Category by User", "transform": [{"filter": {"param": "Category"}}], "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json", "datasets": {"data-0a701ac44d5fb8dcb0fd76b516b081d2": [{"user": "Arielle", "category": "danceability", "average_level": 0.55841}, {"user": "Justin", "category": "danceability", "average_level": 0.43043}, {"user": "Mimi", "category": "danceability", "average_level": 0.62415}, {"user": "Arielle", "category": "energy", "average_level": 0.6685}, {"user": "Justin", "category": "energy", "average_level": 0.8901300000000001}, {"user": "Mimi", "category": "energy", "average_level": 0.68659}, {"user": "Arielle", "category": "loudness", "average_level": -6.99239}, {"user": "Justin", "category": "loudness", "average_level": -4.62178}, {"user": "Mimi", "category": "loudness", "average_level": -8.04783}, {"user": "Arielle", "category": "speechiness", "average_level": 0.048403999999999996}, {"user": "Justin", "category": "speechiness", "average_level": 0.118675}, {"user": "Mimi", "category": "speechiness", "average_level": 0.108681}, {"user": "Arielle", "category": "acousticness", "average_level": 0.1941943083}, {"user": "Justin", "category": "acousticness", "average_level": 0.0437694434}, {"user": "Mimi", "category": "acousticness", "average_level": 0.17045236200000002}, {"user": "Arielle", "category": "instrumentalness", "average_level": 0.08899563260000001}, {"user": "Justin", "category": "instrumentalness", "average_level": 0.0544338643}, {"user": "Mimi", "category": "instrumentalness", "average_level": 0.20178072889999998}, {"user": "Arielle", "category": "liveness", "average_level": 0.176015}, {"user": "Justin", "category": "liveness", "average_level": 0.299992}, {"user": "Mimi", "category": "liveness", "average_level": 0.218167}, {"user": "Arielle", "category": "valence", "average_level": 0.509002}, {"user": "Justin", "category": "valence", "average_level": 0.338449}, {"user": "Mimi", "category": "valence", "average_level": 0.543183}, {"user": "Arielle", "category": "tempo", "average_level": 124.17992}, {"user": "Justin", "category": "tempo", "average_level": 134.56001}, {"user": "Mimi", "category": "tempo", "average_level": 121.241}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
