@@ -48,25 +48,24 @@ body{
     left:36%;
     font-weight:bold;
 }
-.overall-graph{
-    width:30%;
+.overall-graph {
+    width: 30%;
     position: absolute;
     top: 58%;
     left: 9%;
-
 }
-.container-1{
-    width: 40%; 
-    height: 570px; 
-    background-color: #3b4836; 
-    color:#fff;
-    margin: 0 auto; 
-    position: absolute;
-    padding: 20px; 
-    top: 58%;
-    left:45%;
-    border-radius:25px;
 
+.container-1 {
+    width: 30%;
+    height: 570px;
+    background-color: #3b4836;
+    color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    padding: 20px;
+    top: 58%;
+    left: 45%;
+    border-radius: 25px;
 }
 .overall-container {
     display: flex;
